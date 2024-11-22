@@ -1,0 +1,31 @@
+body{
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    min-width: 900px;
+    height: inherit;
+    display: flex;
+ 
+    flex-direction: column;
+    border: 3px solid red;
+}
+
+.headers, .footers {
+    height: 2.5em;
+    flex: none;
+    border: 3px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.herotxt, .add-descrip, .quote, .call-to-action{
+    flex: 1;
+    border: 3px solid grey;
+    display: flex;
+}
+
+
+
